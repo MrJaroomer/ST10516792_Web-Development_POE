@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Puts the school logo on the browser tab -->
+    <link rel="icon" type="image/png" href="images/logo2.png">
+    <title>Online Admission Enrolment | Holy Cross</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<meta name="description" content="Fill out our online form to submit your child's primary school enrolment application to our admissions desk.">
+</head>
+<body>
+    <!-- Top header bar containing the logo, title, and menu links -->
+    <header>
+        <img src="images/logo2.png" alt="School Logo" width="110" height="80" style="vertical-align: middle;">
+        <h1 style="display: inline-block; margin-left: 10px; vertical-align: middle;">Holy Cross Convent Primary School</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About Us</a> | 
+            <a href="services.html">Curriculum</a> | 
+            <a href="enquiry.html">Enquiry</a> | 
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Main content area containing the form layout -->
+    <main style="max-width: 600px; margin: 20px auto;">
+        <h2>Online Admission & Enrolment Form</h2>
+        <p>Skip the paperwork! Complete your child's primary school application directly on our website below to submit it to our admissions office instantly.</p>
+
+        <!-- Form container for parent input fields -->
+        <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 15px; background: #fff; padding: 20px; border: 1px solid #ccc;">
+            <div>
+                <label style="display: block; font-weight: bold;">Child's Full Name:</label>
+                <input type="text" name="child_name" required style="width: 100%; padding: 8px;">
+            </div>
+
+            <div>
+                <label style="display: block; font-weight: bold;">Target Grade Placement:</label>
+                <select name="grade" style="width: 100%; padding: 8px;">
+                    <option value="pre-r">Pre-Grade R</option>
+                    <option value="r">Grade R</option>
+                    <option value="1-7">Grade 1 to Grade 7</option>
+                </select>
+            </div>
+
+            <div>
+                <label style="display: block; font-weight: bold;">Parent Email Address:</label>
+                <input type="email" name="email" required style="width: 100%; padding: 8px;">
+            </div>
+
+            <button type="submit" style="background-color: #0b4da2; color: white; padding: 10px; font-weight: bold; border: none; cursor: pointer;">Submit Application</button>
+        </form>
+    </main>
+
+    <!-- Bottom footer with copyright information -->
+    <footer>
+        <p>&copy; 2026 Holy Cross Convent Primary School</p>
+    </footer>
+	<script src="script.js"></script>
+</body>
+</html>
